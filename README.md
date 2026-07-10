@@ -22,8 +22,9 @@ Claude Code에서 아래를 실행:
 ## 사용법
 
 1. 스킬을 실행하면 데이터 입력 템플릿(`data_template.xlsx`)을 안내한다.
-2. 12개 시트(보고정보·Executive Summary·PL·NEXT Market·Balance Sheet·Cash Flow 등)에 이번 달 수치를 채운다. (현재 **더미 샘플 데이터**가 들어 있으니 본인의 실제 수치로 덮어쓰면 된다.)
-3. 채운 엑셀을 넘기면 디자인 가이드에 맞춰 슬라이드 HTML을 생성하고, Safari 도구로 PDF까지 변환한다.
+2. 13개 시트(보고정보·Executive Summary·PL·NEXT Market·Balance Sheet·Cash Flow 등)에 이번 달 수치를 채운다. (현재 **더미 샘플 데이터**가 들어 있으니 본인의 실제 수치로 덮어쓰면 된다.)
+3. 이어서 Unifi AUM·예치유저 데이터 템플릿(`Unifi_AUM_일자별.xlsx`)을 안내한다. 일자별 누적 AUM·예치유저 수를 최신 일자까지 입력/갱신한다. (Unifi KPI 슬라이드의 AUM 영역차트·예치유저 추이가 이 파일에서 생성된다.)
+4. 채운 두 엑셀을 넘기면 디자인 가이드에 맞춰 슬라이드 HTML을 생성하고, Safari 도구로 PDF까지 변환한다.
 
 
 ## 구성
@@ -33,8 +34,9 @@ plugins/report-slide/skills/report-slide/
 ├── SKILL.md            스킬 정의·워크플로우
 ├── DESIGN_GUIDE.md     디자인 시스템 전체 명세
 ├── template.html       폰트·토큰·컴포넌트 CSS·표지 임베드된 시작 골격
-├── data_template.xlsx  데이터 입력 템플릿(12시트)
-├── assets/             표지 이미지 + LINE Seed 서브셋 폰트
+├── data_template.xlsx  데이터 입력 템플릿(13시트)
+├── Unifi_AUM_일자별.xlsx  Unifi AUM·예치유저 일자별 누적 데이터
+├── assets/             표지 배경·로고 + LINE Seed 서브셋 폰트
 └── tools/              html2pdf_safari (PDF 변환 도구)
 ```
 
