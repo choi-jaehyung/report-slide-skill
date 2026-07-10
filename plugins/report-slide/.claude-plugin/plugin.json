@@ -1,0 +1,9 @@
+{
+  "name": "report-slide",
+  "description": "엑셀 데이터 템플릿을 채우면 월간 실적보고 슬라이드(1280×720, LINE Seed 폰트)를 디자인 가이드에 맞춰 자동 생성한다.",
+  "version": "1.0.0",
+  "author": {
+    "name": "choi-jaehyung"
+  },
+  "license": "MIT"
+}

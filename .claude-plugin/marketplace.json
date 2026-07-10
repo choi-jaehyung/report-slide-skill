@@ -1,0 +1,25 @@
+{
+  "name": "report-slide",
+  "owner": {
+    "name": "choi-jaehyung"
+  },
+  "description": "월간 실적보고 슬라이드 디자인 스킬 마켓플레이스",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "report-slide",
+      "source": "./plugins/report-slide",
+      "description": "엑셀 데이터 템플릿을 채우면 실적보고 슬라이드(1280×720, LINE Seed)를 디자인 가이드에 맞춰 자동 생성",
+      "version": "1.0.0",
+      "displayName": "실적보고 슬라이드 디자인",
+      "keywords": [
+        "slide",
+        "report",
+        "finance",
+        "deck"
+      ],
+      "category": "productivity",
+      "defaultEnabled": true
+    }
+  ]
+}
